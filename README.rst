@@ -10,7 +10,7 @@ To build:
 
   mkdir build
   cd build
-  ../configure --enable-debug --target-list=x86_64-softmmu --enable-kvm 
+  ../configure --enable-debug --target-list=x86_64-softmmu --enable-kvm --enable-curses (libncurses5-dev+libncursesw5-dev)
 
 
 QEMU is a generic and open source machine & userspace emulator and
