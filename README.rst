@@ -2,6 +2,17 @@
 QEMU README
 ===========
 
+This is a fork of qemu.
+
+To build:
+========
+.. code-block:: shell
+
+  mkdir build
+  cd build
+  ../configure --enable-debug --target-list=x86_64-softmmu --enable-kvm 
+
+
 QEMU is a generic and open source machine & userspace emulator and
 virtualizer.
 
